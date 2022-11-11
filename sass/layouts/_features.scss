@@ -25,12 +25,11 @@
 }
 
 .features__background {
-  display: flex;
+  @extend %flex;
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
   border-radius: 4px;
   background-color: var(--bg-third-color);
   justify-content: center;
-  align-items: center;
 }

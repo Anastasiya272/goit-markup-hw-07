@@ -66,9 +66,9 @@
 }
 
 .footer-social-link {
-  display: flex;
+  @extend %flex;
   justify-content: center;
-  align-items: center;
+
   box-sizing: border-box;
   background-color: var(--footer-soc-bg-color);
   height: 44px;
