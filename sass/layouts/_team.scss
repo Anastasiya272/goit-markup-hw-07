@@ -52,13 +52,13 @@
   padding: 30px 0px;
 }
 
-.team__social-list {
+.social-list {
   display: flex;
   justify-content: center;
   gap: 10px;
 }
 
-.team__social-link {
+.social-list__link {
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -74,11 +74,11 @@
   }
 }
 
-.team__social-icon {
+.social-list__icon {
   fill: var(--icon-main-color);
   transition: fill var(--transition-duration) var(--transition-timing-function);
-  .team__social-link:hover &,
-  .team__social-link:focus & {
+  .social-list__link:hover &,
+  .social-list__link:focus & {
     fill: var(--soc-icon-hover-color);
   }
 }
